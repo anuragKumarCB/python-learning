@@ -47,4 +47,7 @@ y = 3
 z = 4
 
 x,y,z
-#  -> (2, 3, 4)
+#  -> (2, 3, 4)     because we are using comma ( , ) they are return as tuple
+
+x + 1, y * 3
+#  -> (3, 9)        both operations are seperate but by using comma we did ien one line
