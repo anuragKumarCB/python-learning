@@ -39,3 +39,12 @@ float(40) + 2.23
 40 + int(2.23)
 # this way you are specifically telling the program which precession you wants to go for and also,
 # we have these methods available for use to make it more precise then why not use it.
+
+# When we use two-three variables separating then by comma ( , ),
+# they will give back Tuple –
+x = 2
+y = 3
+z = 4
+
+x,y,z
+#  -> (2, 3, 4)
