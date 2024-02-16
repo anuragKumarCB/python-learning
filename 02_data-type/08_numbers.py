@@ -200,3 +200,28 @@ setone | {1, 3, 7}
 # will give us that empty-set as set() not set{} because empty {} is type dictionary.
 setone - {1, 2, 3, 4}
 # => set()
+
+# Boolean in Python is also treated as number.
+# If you check for true or false with number 1 and 0 then you will get true.
+True == 1
+# => True
+False == 0
+# => True
+
+# But if check if True is 1 and False is 0 then you will get False. So, that means
+# that True and False is treated as Numbers but in the memory they are not exactly numbers.
+True is 1
+# => False
+False is 0
+# => False
+
+# Even though True and False is not exactly number 1 and 0 in memory but we can
+# still (even though we shouldn’t) to mathematical operation on them.
+True + 1
+# => 2
+False - 1
+# => -1
+True * 5
+# => 5
+True / 1
+# => 1.0
